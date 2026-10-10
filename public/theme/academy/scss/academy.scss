@@ -1,0 +1,54 @@
+/* Academy: modern learning platform */
+
+:root {
+    --academy-primary: #2563eb;
+    --academy-primary-dark: #1d4ed8;
+    --academy-background: #f5f7fb;
+    --academy-surface: #ffffff;
+    --academy-text: #172033;
+    --academy-muted: #64748b;
+    --academy-radius: 14px;
+}
+
+/* Overall typography and page background */
+body {
+    color: var(--academy-text);
+    background-color: var(--academy-background);
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+/* Main content cards */
+.card {
+    border: 1px solid #e8edf5;
+    border-radius: var(--academy-radius);
+    box-shadow: 0 3px 12px rgba(15, 23, 42, 0.04);
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--academy-primary);
+    border-color: var(--academy-primary);
+    border-radius: 9px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--academy-primary-dark);
+    border-color: var(--academy-primary-dark);
+}
+
+/* Links */
+a {
+    color: var(--academy-primary);
+}
+
+/* Form controls */
+.form-control,
+.form-select {
+    border-radius: 9px;
+}
+
+/* Improve content spacing */
+#region-main {
+    border-radius: var(--academy-radius);
+}
